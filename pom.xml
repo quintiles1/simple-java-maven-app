@@ -80,9 +80,5 @@
         <id>maven-releases</id> <!-- Use the same ID as in the repository section -->
         <url>http://localhost:8081/repository/maven-releases/</url> <!-- The URL of your Nexus repository -->
     </repository>
-    <snapshotRepository>
-        <id>maven-snapshots</id> <!-- A unique identifier for snapshot repositories -->
-        <url>http://localhost:8081/repository/maven-snapshots/</url> <!-- The URL of your Nexus snapshot repository -->
-    </snapshotRepository>
 </distributionManagement>
 </project>
