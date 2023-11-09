@@ -71,14 +71,14 @@
   </build>
  <repositories>
     <repository>
-        <id>maven-releases</id> <!-- This is a unique identifier for the repository -->
-        <url>http://localhost:8081/repository/maven-releases/</url> <!-- The URL of your Nexus repository -->
+        <id>maven-releases-project</id> <!-- This is a unique identifier for the repository -->
+        <url>http://localhost:8081/repository/maven-releases-project/</url> <!-- The URL of your Nexus repository -->
     </repository>
 </repositories>
 <distributionManagement>
     <repository>
-        <id>maven-releases</id> <!-- Use the same ID as in the repository section -->
-        <url>http://localhost:8081/repository/maven-releases/</url> <!-- The URL of your Nexus repository -->
+        <id>maven-releases-project</id> <!-- Use the same ID as in the repository section -->
+        <url>http://localhost:8081/repository/maven-releases-project/</url> <!-- The URL of your Nexus repository -->
     </repository>
 </distributionManagement>
 </project>
