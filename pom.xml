@@ -39,7 +39,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.mycompany.app</mainClass>
+              <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -60,7 +60,7 @@
                   <version>[3.8.6,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
-                  <version>[11,)</version>
+                  <version>[17,)</version>
                 </requireJavaVersion>
               </rules>
             </configuration>
